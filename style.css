@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-primary {
+    background-color: aqua;
+    border-color: aqua;
+}
+.btn-primary:hover {
+    background-color: rgb(0, 72, 255);
+    border-color: rgb(0, 72, 255);
+}
+
+.text-secondary {
+    color: #c0c0c0 !important;
+}
+
+.text-primary {
+    color: aqua !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.bg-dark-alt {
+    background-color: #3b2e41 ;
+}
+main {
+    font-size: 20px;
+    color: aquamarine;
+}
+main h3{
+    font-size: 15px;
+    color: #c0c0c0;
+}
+section {
+    padding: 150px 0;
+}
+
+.about h3{
+    padding: 50px !important;
+}
+
+section .header-tittle {
+    font-size: 80px;
+}
+
+.form-control:focus {
+    color: #000 !important;
+}
+
+.form-control::placeholder {
+    color: #000 !important;
+}
